@@ -2,34 +2,38 @@
   background: linear-gradient(#114dc3, #ff0000);
   overflow: hidden;
 }
+
 #nav-container {
   float: left;
   width: 100%;
   position: relative;
 }
+
 #nav-bar ul {
   overflow: hidden;
-  background:linear-gradient(to bottom, #6c8ef5 5%, #afe890 100%);
-  background-color:#6c8ef5;
-  border-radius:42px;
-  border:5px solid #c6e6c8;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
+  background: linear-gradient(to bottom, #6c8ef5 5%, #afe890 100%);
+  background-color: #6c8ef5;
+  border-radius: 42px;
+  border: 5px solid #c6e6c8;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
   font-family: fantasy;
-  font-size:25px;
-  text-decoration:none;
-  text-shadow:3px -5px 2px #37702e;
+  font-size: 25px;
+  text-decoration: none;
+  text-shadow: 3px -5px 2px #37702e;
   width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
   text-align: center;
 }
+
 #nav-bar ul li {
   float: left;
   width: 33.33%;
 }
+
 #nav-bar ul li a {
   text-decoration: none;
   display: block;
@@ -39,13 +43,16 @@
   font-size: 20px;
   font-family: cursive;
 }
-#nav-bar ul li a:hover{
+
+#nav-bar ul li a:hover {
   background-color: #114dc3;
 }
+
 #highlight {
   text-decoration: underline;
   color: white;
 }
+
 body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #114dc3;
@@ -59,17 +66,23 @@ body {
   padding: 2% 20%;
   padding-left: 10%
 }
-h1,h2,h3 {
+
+h1,
+h2,
+h3 {
   font-family: 'Lekton', sans-serif;
 }
-h2{
+
+h2 {
   font-size: 25px;
   padding: 5px;
 }
+
 .img {
   height: 100%;
   width: 100%;
 }
+
 #imgofme {
   height: 380px;
   width: 20%;
@@ -78,19 +91,22 @@ h2{
   border-radius: 30%;
   margin: 5%;
 }
+
 .p3iframe {
   height: 400px;
   width: 600px;
   border: 0;
   position: static;
 }
-.p2video{
+
+.p2video {
   height: 400px;
   width: 530px;
   border: 0;
   position: static;
   list-style: none;
 }
-span{
+
+span {
   vertical-align: inherit;
 }
