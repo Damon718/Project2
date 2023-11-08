@@ -51,10 +51,10 @@ body {
   color: #114dc3;
   line-height: 120%;
   clear: both;
-  list-style-type: none;
   background: linear-gradient(#FFC0CB, #ffd700);
 
 }
+
 #main {
   padding: 2% 20%;
   padding-left: 10%
@@ -62,21 +62,35 @@ body {
 h1,h2,h3 {
   font-family: 'Lekton', sans-serif;
 }
+h1{
+  font-size: 25px;
+  padding: 5px;
+}
 .img {
   height: 100%;
   width: 100%;
 }
 #imgofme {
-  height: auto;
+  height: 380px;
   width: 20%;
   object-fit: contain;
   float: left;
   border-radius: 30%;
   margin: 5%;
 }
-iframe {
+.p3iframe {
   height: 400px;
   width: 600px;
   border: 0;
   position: static;
+}
+.p2video{
+  height: 400px;
+  width: 530px;
+  border: 0;
+  position: static;
+  list-style: none;
+}
+span{
+  vertical-align: inherit;
 }
